@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>デイトラ2nd 最終課題</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Noto+Sans+JP:100,300,400,900&display=swap" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/hiraku.css" rel="stylesheet">
+	<link href="./css/swiper.css" rel="stylesheet">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="js/hiraku.js"></script>
+	<script src="./js/accordion.js"></script>
+	<script src="./js/changed.js"></script>
+	<script src="./js/swiper.js"></script>
+	
+	<style>
+		.hiraku-open-btn {
+		  position: absolute;
+		  top: 50%;
+		  right: 5%;
+		  transform: translateY(-50%);
+		}
+	</style>
+
+</head>
+<body>
+	<header id="header">
+		<button class="hiraku-open-btn" id="offcanvas-btn-right" data-toggle-offcanvas="#js-hiraku-offcanvas-1">
+		<span class="hiraku-open-btn-line"></span>
+		</button>
+		<nav class="header__nav">
+		<ul class="header__nav__list">
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">News</a></li>
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">Service</a></li>
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">Results</a></li>
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">Price</a></li>
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">Comments</a></li>
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">FAQs</a></li>
+			<li class="header__nav__list__item"><a href="#"class="header__nav__list__item--link">Contact</a></li>
+		</ul>
+		</nav>
+	</header>
+	<div class="offcanvas-rights">
+		<ul>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">Results</a></li>
+			<li><a href="#">Price</a></li>
+			<li><a href="#">Comments</a></li>
+			<li><a href="#">FAQs</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+	</div>
+	<div class="mein">
+		<div class="mein-content">
+			<div class="mein-h1">詩が生れて、画が出来る。<br>とかくに人の世は住みにくい。</div>
+			<div class="mein-h3">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+			<a class="mein-btn">お問い合わせ</a>
+		</div>
+	</div>
+	<div class="news-box">
+		<div class="title m-b-60">News</div>
+		<div class="news border-top">
+			<div class="news-leftbox">
+				<div class="news-day">2019-02-01</div>
+				<div class="news-colum">テキスト</div>
+			</div>
+			<div class="news-rightbox"></div>
+				<div class="news-text">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</div>
+			<div class="mark"><img src="./img/news-arrow.svg"></div>
+		</div>
+		<div class="news">
+			<div class="news-leftbox">
+				<div class="news-day">2019-02-01</div>
+				<div class="news-colum">テキスト</div>
+			</div>
+			<div class="news-rightbox"></div>
+				<div class="news-text">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</div>
+			<div class="mark"><img src="./img/news-arrow.svg"></div>
+		</div>
+		<div class="news">
+			<div class="news-leftbox">
+				<div class="news-day">2019-02-01</div>
+				<div class="news-colum">テキスト</div>
+			</div>
+			<div class="news-rightbox"></div>
+				<div class="news-text">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</div>
+			<div class="mark"><img src="./img/news-arrow.svg"></div>
+		</div>
+	    <a href="#" class="more">MORE</a>
+	</div>
+	<div class="bg">
+		<div class="title2 m-b-60">Service</div>
+		<div class="service-box">
+			<div class="service">
+				<div class="service-img"><img src="./img/service1.svg"></div>
+				<div class="service-name">WEB<br>DESIGN</div>
+				<div class="service-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+			</div>
+			<div class="service">
+				<div class="service-img"><img src="./img/service1.svg"></div>
+				<div class="service-name">WEB<br>DESIGN</div>
+				<div class="service-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+			</div>
+			<div class="service">
+				<div class="service-img"><img src="./img/service1.svg"></div>
+				<div class="service-name">WEB<br>DESIGN</div>
+				<div class="service-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-right">
+		<div class="title3 m-b-60">Results</div>
+		<div class="swiper-container relative">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide">
+					<div class="card">
+						<img src="./img/slide1.png" alt="Swiper01" class="card-img">
+						<div class="card-content">
+							<div class="card-title">とかくに人の世は住みにくい。</div>
+							<div class="card-text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</div>
+						</div>
+					</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="card">
+					<img src="./img/slide1.png" alt="Swiper01" class="card-img">
+					<div class="card-content">
+						<div class="card-title">とかくに人の世は住みにくい。</div>
+						<div class="card-text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</div>
+					</div>
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="card">
+					<img src="./img/slide1.png" alt="Swiper01" class="card-img">
+					<div class="card-content">
+						<div class="card-title">とかくに人の世は住みにくい。</div>
+						<div class="card-text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</div>
+					</div>
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="card">
+					<img src="./img/slide1.png" alt="Swiper01" class="card-img">
+					<div class="card-content">
+						<div class="card-title">とかくに人の世は住みにくい。</div>
+						<div class="card-text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</div>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="swiper-pagination"></div>
+		  </div>
+		<a href="#" class="view">VIEW ALL</a>
+	</div>
+
+	<div class="price-box">
+		<div class="title m-b-60">Price</div>
+		<div class="price-table">
+            <table class="tabletest mt-40 wow fadeInUp" data-wow-offset="40">
+                <tr><td class="bg-glay">row1</td><td class="w-640"><span class="sp-text">Price</span>¥10,000</td></tr>
+                <tr><td class="bg-glay">row2</td><td class="w-640"><span class="sp-text">Price</span>¥10,000</td></tr>
+                <tr><td class="bg-glay">row4</td><td class="w-640"><span class="sp-text">Price</span>¥10,000</td></tr>
+            </table>
+            <p class="price-p mt-40 wow fadeInUp" data-wow-offset="40">※ 上記料金はサンプルです。</p>
+        </div>
+	</div>
+	<div class="comments-box">
+		<div class="comments-contents">
+			<div class="title4 m-b-60">Comments</div>
+			<div class="profile-box">
+				<div class="woman">
+					<img src="./img/comments1.png" class="woman-img">
+					<div class="woman-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+				</div>
+				<div class="man">
+					<img src="./img/comments2.png" class="man-img">
+					<div class="man-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+				</div>
+			</div>
+		</div>
+		<img src="./img/comments3.png" class="team-img">
+		<div class="back-color"></div>
+	</div>
+	<div class="qa-box">
+		<div class="title m-b-60">Q&A</div>
+		<div class="qa-mini-box">
+			<div class="question-box">
+				<dl id="acMenu">
+					<dt><span class="accodion-left">Q</span>クリックするとどうなりますか？<span class="accodion-right">+</span></dt>
+					<div class="accodion-next">
+						<dd>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</dd>
+					</div>
+					<dt><span class="accodion-left">Q</span>クリックするとどうなりますか？<span class="accodion-right">+</span></dt>
+					<div class="accodion-next">
+						<dd>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</dd>
+					</div>
+					<dt><span class="accodion-left">Q</span>クリックするとどうなりますか？<span class="accodion-right">+</span></dt>
+					<div class="accodion-next">
+						<dd>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</dd>
+					</div>
+					<dt><span class="accodion-left">Q</span>クリックするとどうなりますか？<span class="accodion-right">+</span></dt>
+					<div class="accodion-next">
+						<dd>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</dd>
+					</div>
+					<dt><span class="accodion-left">Q</span>クリックするとどうなりますか？<span class="accodion-right">+</span></dt>
+					<div class="accodion-next">
+						<dd>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</dd>
+					</div>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="access-box">
+		<div class="access-backcolor"></div>
+		<div class="access-mini-box">
+			<div class="access-content">
+				<div class="title3 m-b-60">Access</div>
+				<div class="access-text">〒106-6126<br>東京都港区六本木 6丁目 10-1<br>六本木ヒルズ森タワー</div>
+				<a class="google-map">Google Maps</a>
+			</div>
+			<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6715018780706!2d139.72727301519996!3d35.660464288718074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b828453ffff%3A0xb8603beeb9b150d8!2z5YWt5pys5pyo44OS44Or44K65qOu44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1582367136795!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+			<a class="google-map1">Google Maps</a>
+		</div>
+	</div>
+	<div class="contact-back">
+		<div class="sp-box">
+			<div class="sp-box-title">Contact Us</div>
+			<div class="sp-box-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。</div>
+		</div>
+		<div class="contact-box">
+			<div class="contact-one">
+				<div class="content-left">
+					<div class="contact-colum">フリガナ</div>
+					<div class="contact-span">必須</div>
+				</div>
+				<input class="contact-input" placeholder=フリガナ></input>
+			</div>
+			<div class="contact-one">
+				<div class="content-left">
+					<div class="contact-colum">フリガナ</div>
+					<div class="contact-span">必須</div>
+				</div>
+				<input class="contact-input" placeholder=フリガナ></input>
+			</div>
+			<div class="contact-one">
+				<div class="contact-colum">メールアドレス</div>
+				<input class="contact-input1" placeholder=sample@gmail.com></input>
+			</div>
+			<div class="contact-one">
+				<div class="contact-colum">性別</div>
+				<div class="radio-box">
+					<label><input class="radio-test" type="radio" name="radio-name"><span>男性</span></label>
+					<label><input class="radio-test" type="radio" name="radio-name"><span>女性</span></label>
+				</div>
+			</div>
+			<div class="contact-one-message">
+				<div class="contact-colum">メッセージ</div>
+				<textarea class="contact-textarea"></textarea>
+			</div>
+			<div class="check-box">
+				<label><input class="check-test1" type="checkbox" name="check-name"><span>個人情報保護方針に同意する</span></label>
+			</div>
+			<div class="btn9">
+				送信する
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-box">
+			<div class="footer-mini-box">
+				<div class="footer-left-box">
+					<div class="icons">
+						<i class="fab fa-twitter fa-3x twitter-white"></i>
+						<i class="fab fa-facebook-square fa-3x facebook-white"></i>
+					</div>
+					<div class="footer-text">
+						<p class="footer-p">サイトマップ</p>
+						<p class="footer-p">個人情報保護方針</p>
+						<p class="footer-p">プライバシーポリシー</p>
+					</div>
+				</div>
+				<div class="footer-left-box">
+					<div class="big-haniwa">
+						HANIWAMAN Corp.
+					</div>
+					<div class="mini-haniwa">
+						© Haniwaman Landing page Sample.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+	$(".offcanvas-rights").hiraku({
+		btn:"#offcanvas-btn-right",
+		direction:"right"
+	});
+	</script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		slidesPerView: 2.5,
+		spaceBetween: 0,
+		initialSlide: 2.5,
+		loop: true,    
+		});
+	</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
